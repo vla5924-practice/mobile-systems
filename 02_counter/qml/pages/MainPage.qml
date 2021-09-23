@@ -11,29 +11,19 @@ Page {
     Column {
         Label {
             id: counter
-            text: "0"
+            text: i
             width: page.width
             font.pixelSize: 200
             horizontalAlignment: "AlignHCenter"
 
             property int i: 0
-            function update() {
-                this.text = this.i;
-            }
-            function setCounter(i) {
-                this.i = i;
-                this.update();
-            }
-            function increment() {
-                this.setCounter(i + 1);
-            }
         }
 
         Button {
             x: page.getCenterWidth(this)
             text: "Increment"
-            onClicked: counter.increment()
-            onPressAndHold: counter.setCounter(0)
+            onClicked: counter.i++
+            onPressAndHold: counter.i = 0
         }
     }
 }
