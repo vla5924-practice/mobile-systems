@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+X-Nemo-Application-Type=silica-qt5
+Icon=06_multipage
+Exec=06_multipage
+Name=06_multipage

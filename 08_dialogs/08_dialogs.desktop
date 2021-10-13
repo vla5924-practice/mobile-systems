@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+X-Nemo-Application-Type=silica-qt5
+Icon=08_dialogs
+Exec=08_dialogs
+Name=08_dialogs
