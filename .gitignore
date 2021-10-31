@@ -1,2 +1,4 @@
 build*
 *.user
+*.docx
+!reference.docx
