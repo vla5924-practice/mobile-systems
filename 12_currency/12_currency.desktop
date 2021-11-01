@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+X-Nemo-Application-Type=silica-qt5
+Icon=12_currency
+Exec=12_currency
+Name=12_currency
