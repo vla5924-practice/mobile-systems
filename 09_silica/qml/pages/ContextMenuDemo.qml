@@ -29,11 +29,11 @@ Page {
             menu: ContextMenu {
                 MenuItem {
                     text: "Menu 1"
-                    onClicked: console.log(model + " " + text)
+                    onClicked: console.log(model.name + " " + text)
                 }
                 MenuItem {
                     text: "Menu 2"
-                    onClicked: console.log(model + " " + text)
+                    onClicked: console.log(model.name + " " + text)
                 }
             }
         }
