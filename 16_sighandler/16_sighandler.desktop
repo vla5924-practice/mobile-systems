@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+X-Nemo-Application-Type=silica-qt5
+Icon=16_sighandler
+Exec=16_sighandler
+Name=16_sighandler
