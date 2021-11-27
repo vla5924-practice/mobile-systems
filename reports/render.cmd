@@ -7,5 +7,6 @@ pandoc --from=gfm --to=docx --reference-doc=reference.docx --resource-path=pract
 pandoc --from=gfm --to=docx --reference-doc=reference.docx --resource-path=practice_03 -o output\practice_03.docx practice_03\README.md
 pandoc --from=gfm --to=docx --reference-doc=reference.docx --resource-path=practice_04 -o output\practice_04.docx practice_04\README.md
 pandoc --from=gfm --to=docx --reference-doc=reference.docx --resource-path=practice_05 -o output\practice_05.docx practice_05\README.md
+pandoc --from=gfm --to=docx --reference-doc=reference.docx --resource-path=practice_06 -o output\practice_06.docx practice_06\README.md
 
 explorer.exe output
