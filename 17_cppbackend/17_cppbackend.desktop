@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+X-Nemo-Application-Type=silica-qt5
+Icon=17_cppbackend
+Exec=17_cppbackend
+Name=17_cppbackend
