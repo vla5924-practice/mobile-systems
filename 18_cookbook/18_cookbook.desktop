@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+X-Nemo-Application-Type=silica-qt5
+Icon=18_cookbook
+Exec=18_cookbook
+Name=18_cookbook
